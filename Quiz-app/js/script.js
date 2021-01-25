@@ -77,9 +77,10 @@ function getSelected() {
         if (answerEl.checked) {
             answer = answerEl.id;
         }
+        
     });
 
-    return answer;
+    return answer;   
 }
 
 function deselectAnswers() {
@@ -109,3 +110,4 @@ submitBtn.addEventListener("click", () => {
         }
     }
 });
+    
