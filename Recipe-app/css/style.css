@@ -35,6 +35,7 @@ header input {
   border: none;
   border-radius: 3px;
   padding: 0.5rem 1rem;
+  font-family: inherit;
 }
 header button {
   background-color: transparent;
@@ -49,7 +50,7 @@ header button:active {
 }
 .fav-container {
   background-color: rgb(250, 234, 249);
-  padding: 1rem;
+  padding: 0.25rem 1rem;
   text-align: center;
 }
 .fav-meals {
@@ -114,6 +115,6 @@ header button:active {
   color: gray;
   background-color: transparent;
 }
-.meal-body .fav-btn:active {
+.meal-body .fav-btn.active {
   color: rebeccapurple;
 }
